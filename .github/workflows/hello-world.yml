@@ -2,8 +2,8 @@ name:  My first workflow
 on: push
 
 jobs: 
-    osbuild:
+    build:
       runs-on: ubuntu-latest
-      steps1:  
+      steps:  
        - name: Echo-test   
          run: echo "hello, world!"
