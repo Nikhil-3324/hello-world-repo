@@ -2,7 +2,7 @@ name:  My first workflow
 on: push
 
 jobs: 
-    os build:
+    osbuild:
       runs-on: ubuntu-latest
       steps1:  
        - name: Echo-test   
