@@ -2,7 +2,7 @@ name:  My first workflow
 on: push
 
 jobs: 
-    build:
+    nikhil:
       runs-on: ubuntu-latest
       steps:  
        - name: Echo-test   
